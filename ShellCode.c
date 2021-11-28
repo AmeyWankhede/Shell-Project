@@ -19,10 +19,10 @@ char* builtin_str[]={
 	"cd",
 	"exit",
    	"bg",
-    "bglist",
+    	"bglist",
 	"google",
 	"wikipedia",
-    "kill"
+    	"kill"
 };
 
 int (*builtin_func[]) (char**)={
