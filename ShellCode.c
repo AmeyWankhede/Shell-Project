@@ -19,20 +19,20 @@ char* builtin_str[]={
 	"cd",
 	"exit",
    	"bg",
-    	"bglist",
+    "bglist",
 	"google",
 	"wikipedia",
-    	"kill"
+    "kill"
 };
 
 int (*builtin_func[]) (char**)={
 	&sh_cd,
 	&sh_exit,
-    	&sh_bg,
-    	&sh_bglist,
+   	&sh_bg,
+   	&sh_bglist,
 	&sh_google,
 	&sh_wikipedia,
-    	&sh_kill
+   	&sh_kill
 };
 
 char *sh_read_line()
